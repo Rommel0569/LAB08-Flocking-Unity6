@@ -1,0 +1,26 @@
+LAB 08 - Flocking y comportamiento colectivo
+Unity: 6000.3.17f1
+
+1. Agrega esta carpeta como proyecto en Unity Hub y ábrela con 6000.3.17f1.
+2. Espera a que termine la importación. Las tres escenas ya están guardadas.
+   Si quieres regenerarlas, usa el menú Lab08 > Construir escenas.
+3. Abre Assets/Lab08/Scenes/00_Menu.unity y pulsa Play.
+4. Usa los dos botones del menú.
+   Peces: WASD mueve la cámara, Q/E cambia altura, rueda acerca o aleja,
+   botón derecho gira, F vuelve a centrar el cardumen.
+   Soldados: WASD mueve al jefe en cualquier dirección; al inicio esperan
+   en filas, marchan detrás del jefe y forman una media luna abierta al parar.
+   Rueda y botón derecho controlan la cámara. Escape vuelve al menú.
+5. Las imágenes reales de ambas escenas están en Capturas/.
+
+Recursos incorporados:
+- GameDevChef/Flocking: pez, Flock, FlockUnit, modelo y texturas.
+- Jerga99/top-down-unity-youtube: modelos Toon_RTS_demo y Game_Src.
+- Kenney Nature Kit: árboles, rocas y vegetación (CC0).
+- ambientCG: texturas Grass001 y Ground061 (CC0).
+
+VERIFICACIÓN REALIZADA
+La escena de peces incluye una roca gigante central con collider; el generador
+evita que los peces nazcan dentro de ella. Unity mostró
+LAB08_BUILD_SUCCESS: 3 scenes ready. Las capturas del informe se generaron
+desde las escenas en Unity y muestran el rodeo de la roca y la media luna.
